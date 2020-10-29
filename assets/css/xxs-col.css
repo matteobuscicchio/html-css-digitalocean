@@ -1,0 +1,107 @@
+/* Debug */
+/* .debug [class*="col-"] {
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+}
+.debug [class*="col-"] > .row > [class*="col-"] {
+  height: 100%;
+}
+.debug [class*="col-"] > .row {
+  padding: 5px;
+  height: 100%;
+}
+.debug [class*="col-"] {
+  padding: 5px;
+  min-height: 190px;
+  max-height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+} */
+/* /Debug/ */
+
+
+/* IMPOSTAZIONI GENERALI */
+
+[class*="col-"] {
+  float: left;
+}
+/* /IMPOSTAZIONI GENERALI/ */
+
+
+/* Extra Small screen media */
+@media all and (max-width: 481px) {
+  .col-xxs-1 {
+    width: calc((100%/12) *1);
+  }
+  .col-xxs-2 {
+    width: calc((100%/12) *2);
+  }
+  .col-xxs-3 {
+    width: calc((100%/12) *3);
+  }
+  .col-xxs-4 {
+    width: calc((100%/12) *4);
+  }
+  .col-xxs-5 {
+    width: calc((100%/12) *5);
+  }
+  .col-xxs-6 {
+    width: 50%;
+  }
+  .col-xxs-7 {
+    width: calc((100%/12) *7);
+  }
+  .col-xxs-8 {
+    width: calc((100%/12) *8);
+  }
+  .col-xxs-9 {
+    width: calc((100%/12) *9);
+  }
+  .col-xxs-10 {
+    width: calc((100%/12) *10);
+  }
+  .col-xxs-11 {
+    width: calc((100%/12) *11);
+  }
+  .col-xxs-12 {
+    width: 100%;
+  }
+
+  /* offset small */
+  .col-offset-xxs-1 {
+    margin-left: calc((100%/12) *1);
+  }
+  .col-offset-xxs-2 {
+    margin-left: calc((100%/12) *2);
+  }
+  .col-offset-xxs-3 {
+    margin-left: calc((100%/12) *3);
+  }
+  .col-offset-xxs-4 {
+    margin-left: calc((100%/12) *4);
+  }
+  .col-offset-xxs-5 {
+    margin-left: calc((100%/12) *5);
+  }
+  .col-offset-xxs-6 {
+    margin-left: 50%;
+  }
+  .col-offset-xxs-7 {
+    margin-left: calc((100%/12) *7);
+  }
+  .col-offset-xxs-8 {
+    margin-left: calc((100%/12) *8);
+  }
+  .col-offset-xxs-9 {
+    margin-left: calc((100%/12) *9);
+  }
+  .col-offset-xxs-10 {
+    margin-left: calc((100%/12) *10);
+  }
+  .col-offset-xxs-11 {
+    margin-left: calc((100%/12) *11);
+  }
+
+}
+/* /Extra Small screen media/ */
