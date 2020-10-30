@@ -10,6 +10,7 @@
   background-color: yellow;
   border: 1px solid black;
 }
+/* !important; usala quando necessario */
 /* /debug/ */
 
 
@@ -35,6 +36,13 @@
   transform: translate(-50%, -50%);
 }
 /* /position absolute/ */
+
+/* colori di background */
+.bk_cl_w{
+  background-color: white !important;
+  border-color: white !important;
+}
+/* /colori di background/ */
 
 /* margini e padding */
 .mrgn_tp_100{
