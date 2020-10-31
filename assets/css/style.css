@@ -7,18 +7,15 @@
 /* debug */
 .debug{
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: yellow;
   border: 1px solid black;
 }
 /* !important; usala quando necessario */
 
-footer{
-  background-color: lightblue;
-}
 .jumbotron{
-  background-color: blue !important;
+  background-color: transparent !important;
 }
 /* /debug/ */
 
@@ -57,6 +54,9 @@ footer{
   color: #80aaff !important;
 }
 
+.cl_b{
+  color: blue !important;
+}
 /* margini e padding */
 .mrgn_tp_100{
   margin-top: 100px;
@@ -76,15 +76,22 @@ footer{
 .mrgn_btm_20{
   margin-bottom: 20px;
 }
-.p_tp_20{
+.p_20{
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.p_50{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* /margini e padding/ */
 /* /Utility/ */
 
-.inn{
-  padding-bottom: 50px;
+.jumbotron_top{
+  background-image: url("../img/jumbotron_top.svg");
+}
+.jumbotron_low{
+  background-color: lightgray;
 }
 
 #sign_up{
@@ -95,4 +102,20 @@ footer{
   border: 1px solid #80aaff;
   border-radius: 5px;
   color: #80aaff !important;
+}
+
+#footer_side{
+  color: white !important;
+}
+.footer_top{
+  background-image: linear-gradient(#1a66ff, #003cb3);
+}
+.fotter_btn{
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.footer_lower{
+  background-image: linear-gradient(#002266, #002b80);
 }
