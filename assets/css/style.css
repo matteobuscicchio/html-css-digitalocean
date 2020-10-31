@@ -13,6 +13,13 @@
   border: 1px solid black;
 }
 /* !important; usala quando necessario */
+
+footer{
+  background-color: lightblue;
+}
+.jumbotron{
+  background-color: blue !important;
+}
 /* /debug/ */
 
 
