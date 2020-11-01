@@ -52,6 +52,9 @@ ul{
 /* /colori/ */
 
 /* font */
+.f_1-5em{
+line-height: 1.5em;
+}
 .f_2em{
 line-height: 2em;
 }
