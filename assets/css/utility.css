@@ -1,5 +1,7 @@
 /* Utility class */
-
+.container{
+  max-width: 1000px !important;
+}
 h4, h3, p, a, ul{
   line-height: 1em;
 }
@@ -9,6 +11,12 @@ a{
 }
 ul{
   list-style-type: none;
+}
+
+
+.display_inline{
+  padding-left: 5px;
+  display: inline-block;
 }
 
 
@@ -60,6 +68,19 @@ line-height: 2em;
 }
 /* /font/ */
 
+/* border */
+.border_b{
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.border_left{
+  border-left: 1px solid gray;
+}
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+/* /border/ */
 
 /* margin */
 .mrgn_tp_20{
@@ -83,6 +104,9 @@ line-height: 2em;
 /* /margin/ */
 
 /* padding */
+.p_10{
+  padding: 10px 0px;
+}
 .p_b_20{
   padding-bottom: 20px;
 }
