@@ -1,0 +1,97 @@
+/* Utility class */
+
+h4, h3, p, a, ul{
+  line-height: 1em;
+}
+a{
+  color: white !important;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+
+/* position absolute*/
+.pos_rel{
+  position: relative;
+}
+.pos_abs{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /position absolute/ */
+
+
+/* colori di background */
+.bk_cl_w{
+  background-color: white !important;
+  border-color: white !important;
+}
+.bk_cl_f2f2f2{
+  background-color: #f2f2f2 !important;
+  border-color: #f2f2f2 !important;
+}
+/* /colori di background/ */
+
+
+/* colori */
+.cl_w{
+  color: white !important;
+}
+
+.cl_bk{
+  color: black !important;
+}
+
+.cl_b{
+  color: blue !important;
+}
+/* /colori/ */
+
+
+/* margin */
+.mrgn_tp_100{
+  margin-top: 100px;
+}
+.mrgn_btm_100{
+  margin-bottom: 100px;
+}
+.mrgn_tp_50{
+  margin-top: 50px;
+}
+.mrgn_btm_50{
+  margin-bottom: 50px;
+}
+.mrgn_tp_20{
+  margin-top: 20px;
+}
+.mrgn_btm_20{
+  margin-bottom: 20px;
+}
+/* /margin/ */
+
+/* padding */
+.p_20{
+  padding: 20px 0px;
+}
+.p_50{
+  padding: 50px 0px;
+}
+.p_100{
+  padding: 100px 0px;
+}
+/* /padding/ */
+/* /Utility class/ */
+
+/* debug */
+.debug{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+/* /debug/ */

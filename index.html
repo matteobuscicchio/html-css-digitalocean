@@ -7,12 +7,15 @@
 
     <title>html-css-digitalocean</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <!-- /BOOTSTRAP/ -->
 
     <!-- AGGIUNGERE I/IL PERCORSO/I DI CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/utility.css">
     <link rel="stylesheet" href="assets/css/xxs-col.css">
     <!-- /AGGIUNGERE I/IL PERCORSO/I DI CSS/ -->
 
@@ -20,13 +23,14 @@
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css">
     <!-- /FONTAWESOME/ -->
   </head>
+
   <body>
 
     <!-- HEADER -->
-    <header id="header_site">
-      <nav class="navbar navbar-inverse navbar-fixed-top bk_cl_w">
+    <!-- <header id="header_site">
+      <nav class="navbar navbar-inverse navbar-fixed-top p_20 bk_cl_w">
 
-        <div class="container p_tp_20">
+        <div class="container">
 
           <div class="navbar-header">
 
@@ -36,10 +40,10 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt=""></a>
+            <a id="nav_brand" href="#"><img src="assets/img/logo.png" alt=""></a>
           </div>
 
-          <div class="navbar-collapse collapse">
+          <div class="navbar-collapse collapse cl_bk">
             <ul class="nav navbar-nav navbar-right">
               <li><a class="" href="#">Docs</a></li>
               <li><a class="" href="#">Support<i class="fas fa-angle-down"></i></a></li>
@@ -48,26 +52,45 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
       <!-- jumbotron -->
-      <div class="jumbotron mrgn_tp_100 jumbotron_top">
+      <div class="jumbotron_top p_50 cl_w">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h1 class="">The simplest cloud <br> platform for <br> developers & teams</h1>
+              <p class="line_height">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or tne thousand.</p>
             </div>
             <div class="col-xs-12 col-md-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <div class="jumbotron_form text-center">
+                <form>
+                  <h2 class="cl_bk">Deploy your app in seconds.</h2>
+                  <h2 class="cl_b">Get started now.</h2>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <button class="form-control cl_w account text-center"type="button" name="button"><strong>Create your account</strong></button>
+                  </div>
+                  <div class="form-group">
+                    <button class="form-control text-center"type="button" name="button">Sign up with google</button>
+                  </div>
+                  <p class="cl_bk">By signing up you agree to the <a class="cl_b"href="#">Terms of service</a>.</p>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="jumbotron_low text-center">
+      <div class="jumbotron_low text-center p_50">
         <div class="container">
-          <h2>innovative business</h2>
-          <div class="row p_50">
+          <h4>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h4>
+          <div class="row mrgn_tp_50 mrgn_btm_50">
             <div class="col-xs-6 col-sm-2">
               <img src="assets/img/collegamenti.svg" alt="">
             </div>
@@ -87,7 +110,7 @@
               <img src="assets/img/collegamenti.svg" alt="">
             </div>
           </div>
-          <p class="mrgn_tp_20 mrgn_btm_20"><a href="#">view customer stories</a></p>
+          <p><a class="cl_b" href="#">View customer stories ></a></p>
         </div>
       </div>
       <!-- /jumbotron/ -->
@@ -98,42 +121,60 @@
     <!-- MAIN PRINCIPAL -->
     <!-- MAIN 1 -->
     <main id="main_side">
-      <div class="text-center">
-        <h2>Deploy and scale seamlessy</h2>
-        <p>optimized configuration process saves your time</p>
-      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <div class="debug"></div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="debug"></div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="debug"></div>
+        <div class="text-center">
+          <h2>Deploy and scale seamlessy</h2>
+          <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+        </div>
+        <div class="p_50 text-left">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <div class="box">
+                <ul class="border_left">
+                  <li>Deploy</li>
+                  <li>Deploy</li>
+                  <li>Deploy</li>
+                  <li>Deploy</li>
+                  <li>Deploy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="debug"></div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="debug"></div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- MAIN 2 -->
-      <div class="carosell">
-        <div class="deploy">
-          <h2 class="text-center">designed for developer</h2>
-          <p class="text-center">build more and spend less</p>
+      <div class="carosello p_20 text-center bk_cl_f2f2f2">
+        <div class="p_20">
+          <h2>Designed for developers</h2>
+          <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
         </div>
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="debug"></div>
+              <img src="assets/img/createdopretls.jpg" alt="">
             </div>
-            <p class="text-center">create computer sever in 55 seconds</p>
+          </div>
+          <div class="p_20">
+            <p>Create compute sever in 55 seconds or less.</p>
+            <form>
+              <input type="radio" checked="checked">
+              <input type="radio">
+              <input type="radio">
+              <input type="radio">
+            </form>
           </div>
         </div>
       </div>
 
       <!-- MAIN 3 -->
-      <div class="features">
+      <div class="p_50">
         <h2 class="text-center">The feature your business need</h2>
         <div class="container">
           <div class="row">
@@ -150,22 +191,31 @@
         </div>
       </div>
 
-    <!-- MAIN 4 -->
+      <!-- MAIN 4 -->
+      <div class="p_50"></div>
 
-
-    <!-- MAIN 5 -->
-    <div class="dev_teams">
-      <div class="deploy">
-        <h2 class="text-center">Developer teams love DigitalOceans</h2>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="debug"></div>
+      <!-- MAIN 5 -->
+      <div class="carosello text-center bk_cl_f2f2f2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 p_50">
+              <h2>Development teams love DigitalOceans</h2>
+            </div>
+            <div class="col-xs-12">
+              <div class="carosello_box p_100">
+                <img src="assets/img/rockerbox.png" alt="">
+                <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient." <br><strong>Rick O'Toole</strong><br>Co-founder and CTO</p>
+                <a class="cl_b"href="#">Read story ></a>
+              </div>
+            </div>
           </div>
         </div>
+        <form class="p_50">
+          <input type="radio" checked="checked">
+          <input type="radio">
+          <input type="radio">
+        </form>
       </div>
-    </div>
 
     </main>
     <!-- \MAIN PRINCIPAL\ -->
@@ -177,7 +227,7 @@
       <div class="footer_top text-center p_50">
         <h3>Get started now.</h3>
         <button class="fotter_btn">
-          <a href="#"> create your account </a>
+          <a href="#">Create your account</a>
         </button>
       </div>
 
@@ -186,19 +236,64 @@
           <div class="row p_50">
             <div class="col-xs-12 col-sm-12 col-md-4">
               <img src="assets/img/logo.svg" alt="">
-              <p>Copyright © 2020 DigitalOcean™ Inc. Proudly made in NY.</p>
+              <div id="logo_text">
+                <h4>Copyright © 2020 DigitalOcean™ Inc.</h4>
+                <p> Proudly made in NY.</p>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-2">
-              <h3>company</h3>
+              <ul>
+                <li><h3><a href="#"><strong>Company</strong></a></h3></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+              </ul>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-2">
-              <h3>company</h3>
+              <ul>
+                <li><h3><a href="#"><strong>Company</strong></a></h3></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+              </ul>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-2">
-              <h3>company</h3>
+              <ul>
+                <li><h3><a href="#"><strong>Company</strong></a></h3></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+              </ul>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-2">
-              <h3>company</h3>
+              <ul>
+                <li><h3><a href="#"><strong>Company</strong></a></h3></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+                <li><p><a href="#">Company</a></p></li>
+              </ul>
             </div>
           </div>
         </div>
