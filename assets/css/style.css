@@ -47,7 +47,8 @@
 
 /* MAIN */
 .box li{
-  line-height: 2em;
+  line-height: 3.5em;
+  padding-left: 10px;
 }
 .border_left{
   border-left: 1px solid gray;

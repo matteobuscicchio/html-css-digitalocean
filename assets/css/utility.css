@@ -51,6 +51,12 @@ ul{
 }
 /* /colori/ */
 
+/* font */
+.f_2em{
+line-height: 2em;
+}
+/* /font/ */
+
 
 /* margin */
 .mrgn_tp_100{
@@ -74,6 +80,9 @@ ul{
 /* /margin/ */
 
 /* padding */
+.p_b_20{
+  padding-bottom: 20px;
+}
 .p_20{
   padding: 20px 0px;
 }
