@@ -46,6 +46,7 @@
 
 
 /* MAIN */
+/* Main1 */
 .box li{
   line-height: 3.5em;
   padding-left: 10px;
@@ -53,12 +54,37 @@
 .border_left{
   border-left: 1px solid gray;
 }
+/* /Main 1/ */
+
+
+/* Main 2 */
 .carosello h2, p{
   line-height: 5rem;
 }
 .carosello img{
   width: 50%;
 }
+/* /Main 2/ */
+
+
+/* Main 3 */
+.box_feature{
+  width: 70%;
+}
+/* /Main 3/ */
+
+
+/* Main 4 */
+.region_12{
+  background-image: linear-gradient(#1a66ff, #003cb3);
+}
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+/* /Main 4/ */
+
+
+/* /Main 5/ */
 .carosello_box{
   width: fit-content;
   background-color: white !important;
@@ -74,9 +100,7 @@
 .carosello_box a{
   padding-bottom: 100px;
 }
-.box_feature{
-  width: 70%;
-}
+/* /Main 5/ */
 /* /MAIN/ */
 
 

@@ -47,7 +47,7 @@ ul{
 }
 
 .cl_b{
-  color: blue !important;
+  color: #00ccff !important;
 }
 /* /colori/ */
 
@@ -62,11 +62,11 @@ line-height: 2em;
 
 
 /* margin */
-.mrgn_tp_100{
-  margin-top: 100px;
+.mrgn_tp_20{
+  margin-top: 20px;
 }
-.mrgn_btm_100{
-  margin-bottom: 100px;
+.mrgn_btm_20{
+  margin-bottom: 20px;
 }
 .mrgn_tp_50{
   margin-top: 50px;
@@ -74,11 +74,11 @@ line-height: 2em;
 .mrgn_btm_50{
   margin-bottom: 50px;
 }
-.mrgn_tp_20{
-  margin-top: 20px;
+.mrgn_tp_100{
+  margin-top: 100px;
 }
-.mrgn_btm_20{
-  margin-bottom: 20px;
+.mrgn_btm_100{
+  margin-bottom: 100px;
 }
 /* /margin/ */
 
