@@ -14,6 +14,10 @@
   max-width: 50%;
 }
 
+.display_inline a{
+  text-decoration: none;
+}
+
 .line_height{
   line-height: 1.5em;
 }
